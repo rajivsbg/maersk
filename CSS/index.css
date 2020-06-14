@@ -1,0 +1,159 @@
+
+	body {
+		font-size:14px;
+		margin:0px;
+		padding:0px;
+		font-family: sans-serif;
+		background:#EFEFEF;
+		overflow:auto;
+	}
+
+	h1 {
+	  padding: 10px 0px;
+	  margin:0px;
+	  font-size: 19px;
+	  text-align: center;
+	  font-weight: bold;
+	  background: white;
+	}
+
+	h4 {
+	  text-align: center;
+	  font-size: 13px;
+	  margin: 10px 0px;
+	}
+
+	button {
+		display: block;
+		background-color: #72C3DC;
+		border-radius: 7px;
+		border: 0px;
+		color: white;
+		box-shadow: 0px 3px #2B8EAD;
+	}
+
+	button.btn-sort:focus {
+		outline: -webkit-focus-ring-color auto 0px;
+	} 
+
+	button.btn-shuffle:focus {
+		outline: -webkit-focus-ring-color auto 0px;
+	}
+
+	.main-container {
+		margin: auto;
+	}
+
+	.header {
+		background: white;
+		color: black;
+	}
+
+	.btn-shuffle:focus {
+		border: 0px !important;
+	}
+
+	.btn-shuffle {
+		padding: 9px 62px;
+		margin: 25px 10px 0px 25px;
+	}
+
+	.btn-sort {
+		padding: 9px 75px;
+		margin: 25px 10px 0px 25px;
+	}
+
+	.card-btn-container {
+		display: flex;
+		border-top:5px solid #BFBFBF;
+	}
+
+	#card-container {
+		width: 720px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.btn-container {
+		width: 240px;
+	}
+
+	.card {
+		padding: 39px 94px;
+		font-size: 91px;
+		color: white;
+	}
+
+	.cardInfo {
+		display: none;
+	}
+	
+    @media only screen and (max-width: 375px) {
+		body {
+			background: white;
+		}
+		
+		button {
+			display: inline;
+		}
+		
+		.card-primary {
+			margin: 0px 15px 3px 15px;
+			width: 100%;
+			display: flex;
+		}
+		
+		.main-container {
+			max-width: 375px;
+		}
+		
+		.header {
+			background: black;
+			color: white;
+		}
+		
+		.card-btn-container {
+			border-top: 0px;
+			flex-direction: column-reverse;
+		}
+		
+		.btn-container {
+			width: 100%;
+			margin: 10px 0px 15px 0px;
+			text-align: center;
+		}
+		
+		.btn-shuffle {
+			padding: 12px 17px;
+			margin: 0px;
+		}
+		
+		.btn-sort {
+			padding: 12px 31px;
+			margin: 0px;
+		}
+		
+		#card-container {
+			width:100%;
+		}
+		
+		.card {
+			width:3%;
+			color: black;
+			font-size: 16px;
+			padding: 15px 0px;
+			text-align: center;
+			color: transparent;
+		}
+		
+		.cardInfo {
+			display: block;
+			width: 97%;
+			background: #EFEFEF;
+			padding: 15px 0px;
+			text-align: center;
+			font-size: 16px
+		}
+	
+    }
+
